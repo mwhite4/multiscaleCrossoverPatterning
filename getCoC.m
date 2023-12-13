@@ -1,6 +1,7 @@
 %% Martin White, Kleckner Lab January 2019
 
-%% This is a program for generating 'high resolution' CoC curves for
+%% Function Description
+%This is a program for generating 'high resolution' CoC curves for
 %chromosomes within a user-defined range of lengths.  The program:
 
 %1) takes the input, normalizes each chromosome to unit length and then
