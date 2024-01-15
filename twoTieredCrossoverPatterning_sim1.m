@@ -56,7 +56,7 @@ simCOs_majority_spacing         = getCOSpacing(simCOs_majority);
 
 
 % take remaining precursors, reset the stress landscape, and do a second
-% patterning process to get minority crossovers
+% patterning process using a larger L to get minority crossovers
 
 %Get the positions of the remaining precursors
 precursor_positions_p2                              = majorityCO_Designations;
@@ -81,9 +81,6 @@ end
 
 precursor_sensitivity_matrix_p2 = sortMinorityCO_precSensitiv_retained(precursor_sensitivity_matrix_p2);
 
-%Do second round of patterning to get minority crossovers using L twice as 
-%large as used for majority crossover patterning process
-
 minorityCO_designations_2L    = pattern_event_designations_according_to_beam_film_model(n,totalPrecursor_rnd2,precursor_positions_p2,precursor_sensitivity_matrix_p2,maximum_stress_per_object,L2,cL,cR);
 
 minority_COs_2L                     = minorityCO_designations_2L - precursor_positions_p2;
@@ -98,7 +95,7 @@ simCOs_minority_2L                  = simCOs_minority_2L.*chrXVlength;
 simCOs_minority_2L_CoC30            = getCoC(simCOs_minority_2L,30);
 simCOs_minority_2L_spacing          = getCOSpacing(simCOs_minority_2L);
 
-% combine class I and class II COs
+% combine canonical majority and minority crossovers
 simCOs_majorityAndMinority_2L       = horzcat(simCOs_majority(:,2:end),simCOs_minority_2L(:,2:end));
 simCOs_majorityAndMinority_2L       = sort(simCOs_majorityAndMinority_2L,2);
 simCOs_majorityAndMinority_2L       = horzcat(simCOs_majority(:,1),simCOs_majorityAndMinority_2L);
