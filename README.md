@@ -18,3 +18,6 @@ No specific installation is required.  Functions should be added to the MATLAB f
 - An example dataset can be found in folder demoDataset.
 - The expected focus and domain components of the example dataset can be found in subfolder demoOutput.
 - Expected run time for all functions will depend on input data size and computer specifications but should be on the order of seconds.
+
+## Instructions for use
+Each function contains instructions for use.
