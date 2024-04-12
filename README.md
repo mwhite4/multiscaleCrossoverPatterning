@@ -12,6 +12,7 @@ The classical phenomenon of meiotic crossover interference is a one-dimensional 
 MATLAB: tested on MATLAB_R2023b
 
 ## Installation Guide
+No specific installation is required.  Functions should be added to the MATLAB file path.
 
 ## Demo
 - An example dataset can be found in folder demoDataset.
