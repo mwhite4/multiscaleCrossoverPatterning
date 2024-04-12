@@ -2,7 +2,7 @@
 
 Custom code (Matlab functions/scripts) associated with publication:
 
-White, M. A., Weiner, B., Chu, L., Lim, G., and Kleckner, N. (202x).  Crossover Interference Mediates Multiscale Patterning Along Meiotic Chromosomes. bioRxiv. https://doi.org/10.1101/2024.01.28.577645
+White, M. A., Weiner, B., Chu, L., Lim, G., and Kleckner, N. (2024).  Crossover Interference Mediates Multiscale Patterning Along Meiotic Chromosomes. bioRxiv. https://doi.org/10.1101/2024.01.28.577645
 
 Abstract
 
