@@ -2,11 +2,14 @@
 
 Custom code (Matlab functions/scripts) associated with publication:
 
-White, M. A., Weiner, B., Chu, L., Lim, G., and Kleckner, N. (2024).  Crossover Interference Mediates Multiscale Patterning Along Meiotic Chromosomes. bioRxiv. https://doi.org/10.1101/2024.01.28.577645
+White, M. A., Weiner, B., Chu, L., Lim, G., and Kleckner, N. (2024).  Crossover Interference Mediates Multiscale Patterning Along Meiotic Chromosomes. bioRxiv. https://doi.org/10.1101/2024.01.28.577645.
+
+August 2025:
+The above manuscript has been accepted, in principle, for publication in Nature Communications
 
 Abstract
 
-The classical phenomenon of meiotic crossover interference is a one-dimensional spatial patterning process that produces evenly spaced crossovers. Here, quantitative analysis of diagnostic molecules along budding yeast chromosomes reveals that that interference sets up not one, but two interdigitated patterns of related periodicities (∼450nm and ∼900nm). Both patterns comprise spatially clustered assemblies of crossover recombination, chromosome axis and synaptonemal complex proteins ("triads"), which manifest as either focal (∼450nm) or domainal (∼900nm) signals. Functionally, the two sets of triads correspond, respectively, to canonical crossovers and a previously mysterious minority set of crossovers, and thus, in toto, account for all detected events. Triad spacings and spreading are economically and synthetically explained by the hypothesis that patterning is mediated by mechanical forces along prophase chromosome axes. Intensity levels of domainal triad components are further modulated, dynamically, by the conserved protein remodeler Pch2/TRIP13.
+Meiotic crossover interference is a one-dimensional spatial patterning process that produces evenly-spaced crossovers.  Quantitative analysis of diagnostic molecules along budding yeast chromosomes reveals that this process sets up two interdigitated patterns, of shorter and longer periodicity, by "two-tiered" patterning.  Both tiers comprise clustered assemblies of three types of molecules ("triads") representing the three major components of meiotic chromosomes (crossover recombination, axes, and the synaptonemal complex).  One tier of triads occurs at sites of majority (“canonical”) crossovers.  Second tier triads are more widely spaced but also exhibit interference, dependent on the same functions as canonical crossover interference.  Diverse lines of evidence suggest that second tier triads arise at sites of previously mysterious "minority" crossovers.  Finally, conserved protein remodeler Pch2/TRIP13 modulates the abundance of triad components, specifically in longer periodicity triads, dynamically in real time.  Potential roles of triad structure, mechanisms of two-tiered patterning, and the nature of minority crossovers are discussed.
 
 ## Software Dependencies
 MATLAB: tested on MATLAB_R2023b running on MAC Sonoma 14.4.1
@@ -14,9 +17,9 @@ MATLAB: tested on MATLAB_R2023b running on MAC Sonoma 14.4.1
 ## Installation Guide
 No specific installation is required.  Functions should be added to the MATLAB file path.
 
-## Demo
+## Demo - MW: needs to be updated
 - An example dataset can be found in folder demoDataset.
-- The expected focus and domain components of the example dataset can be found in subfolder demoOutput.
+- The expected shorter and longer components of the example dataset can be found in subfolder demoOutput.
 - Expected run time for all functions will depend on input data size and computer specifications but should be on the order of seconds.
 
 ## Instructions for use
