@@ -8,6 +8,10 @@
 % frequencies above (lfIntensityProfiles), or below (hfIntensityProfiles),
 % a user defined threshold (maxPeriod)
 
+%NB - for published Nature Communications manuscript, a threshold of 875 nm
+was used for both shorter periodicity triads (aka focal triads aka high freq
+component triads), and for for longer periodicity triads (aka domainal triads
+aka domainal triads aka low frequency component triads).
 
 %Input
 % intensityProfiles - this is a cell.  each row is a traced bivalent.
