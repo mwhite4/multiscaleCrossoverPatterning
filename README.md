@@ -17,10 +17,9 @@ MATLAB: tested on MATLAB_R2023b running on MAC Sonoma 14.4.1
 ## Installation Guide
 No specific installation is required.  Functions should be added to the MATLAB file path.
 
-## Demo - MW: needs to be updated
-- An example dataset can be found in folder demoDataset.
-- The expected shorter and longer components of the example dataset can be found in subfolder demoOutput.
-- Expected run time for all functions will depend on input data size and computer specifications but should be on the order of seconds.
+## Demo
+- Data associated with the above paper has been deposited in a public repository and can be accessed via the following link
+- ## MW: add link once DOI is obtained
 
 ## Instructions for use
 Each function contains instructions for use.
