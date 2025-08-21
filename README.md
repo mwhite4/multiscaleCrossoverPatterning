@@ -6,6 +6,8 @@ White, M. A., Weiner, B., Chu, L., Lim, G., and Kleckner, N. (2024).  Crossover 
 
 August 2025:
 The above manuscript has been accepted, in principle, for publication in Nature Communications
+White, M. A., Weiner, B., Lim, G., Prentiss, M. Chu, L., and Kleckner, N. (2025).  Crossover Interference Mediates Multiscale Patterning Along Meiotic Chromosomes. Nature Communications, in press.
+
 
 Abstract
 
@@ -13,13 +15,16 @@ Meiotic crossover interference is a one-dimensional spatial patterning process t
 
 ## Software Dependencies
 MATLAB: tested on MATLAB_R2023b running on MAC Sonoma 14.4.1
+Mathematica
 
 ## Installation Guide
-No specific installation is required.  Functions should be added to the MATLAB file path.
+No specific installation is required.  Matlab functions (.m files) should be added to the MATLAB file path.
+Mathematica scripts (.nb files) may need to be unzipped.
 
 ## Demo
-- Data associated with the above paper has been deposited in a public repository and can be accessed via the following link
+- Data associated with the above paper has been deposited in a public repository and can be accessed via the following link, and can be used as input for testing the functions.
 - ## MW: add link once DOI is obtained
+- file MP_outputAnalysisOf100ControlSimulations.pdf shows an example output for simulting and analyzing data using MP_MathematicaScriptForSimulatingAndAnalyzingControlDataset.nb.  Each row is a separate simulated intensity profile.  The first column is the simulated intensity profile.  The middle column is the corresponding fourier transform in k-space.  The third column is the corresponding fourier transform in position space.
 
 ## Instructions for use
 Each function contains instructions for use.
