@@ -24,8 +24,8 @@ No specific installation is required.  Matlab functions (.m files) should be add
 Mathematica scripts (.nb files) may need to be unzipped.
 
 ## Demo
-- Data associated with the above paper has been deposited in a public repository.  It also serves the purposes of a demo dataset and can be accessed via the following link:
-- ## MW: add link once DOI is obtained
+- Data associated with the above paper has been deposited in a public repository.  It also serves the purposes of a demo dataset and can be accessed via https://doi.org/10.7910/DVN/5LEWYF.
+  
 - File MP_outputAnalysisOf100ControlSimulations.pdf shows an example output for simulting and analyzing data using MP_MathematicaScriptForSimulatingAndAnalyzingControlDataset.nb.  Each row is a separate simulated intensity profile.  The first column is the simulated intensity profile.  The middle column is the corresponding fourier transform in k-space.  The third column is the corresponding fourier transform in position space.
 
 ## Instructions for use
