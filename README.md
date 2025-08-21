@@ -6,6 +6,7 @@ White, M. A., Weiner, B., Chu, L., Lim, G., and Kleckner, N. (2024).  Crossover 
 
 August 2025:
 The above manuscript has been accepted, in principle, for publication in Nature Communications
+
 White, M. A., Weiner, B., Lim, G., Prentiss, M. Chu, L., and Kleckner, N. (2025).  Crossover Interference Mediates Multiscale Patterning Along Meiotic Chromosomes. Nature Communications, in press.
 
 
